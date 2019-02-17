@@ -1,0 +1,13 @@
+{
+  "name": "google-photos-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Valentin Hervieu",
+  "license": "none",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "serverless-http": "^1.9.0"
+  }
+}

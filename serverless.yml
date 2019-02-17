@@ -1,0 +1,12 @@
+service: serverless-google-photos-api
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-3
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
